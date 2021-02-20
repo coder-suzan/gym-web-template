@@ -1,0 +1,113 @@
+@media only screen and (max-width: 500px){
+    #home-slider p {
+        font-size: 16px;}
+        h1 {
+            font-size: 30px;
+        }
+} 
+
+@media only screen and (max-width: 992px){
+    .slider-details {
+        margin-top: 0px;
+    }
+} 
+
+@media only screen and (max-width: 768px){
+    .slider-details  .my-shadow  {
+        -webkit-box-shadow: -50px 1px 0px -26px rgba(83,78,91,0.02); 
+        box-shadow: -50px 1px 0px -26px rgba(83,78,91,0.02);
+    }
+}
+@media only screen and (max-width: 500px){
+
+    .slider-details p {
+        font-size: 16px;
+    }
+    .slider-details a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+
+    #get-started-section p {
+        font-size: 17px;
+    }
+    #get-started-section {
+        padding: 20px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 500px){
+
+    #get-started-section {
+        margin-top: 100px !important;
+    }
+    section {
+        margin-bottom: 40px;
+    }
+}
+
+/* health-suggestion-section */
+
+@media only screen and (max-width: 992px){
+    #health-suggestion-section button {
+        padding: 10px 20px;
+       font-size: 20px; }
+ }
+    @media only screen and (max-width:568px){
+        #health-suggestion-section button {
+            padding: 8px 15px;
+           font-size: 20px;
+        }
+    }
+
+    
+@media only screen and (max-width: 500px){
+    #health-suggestion-section h4 {
+       font-size: 25px;
+    }
+
+    #health-suggestion-section h2 {
+        font-size: 35px;
+     }
+     #health-suggestion-section button {
+        padding: 15px 20px;
+        font-size: 16px;
+     }
+
+}
+
+@media only screen and (max-width: 460px){
+    #health-suggestion-section h4 {
+       font-size: 20px;
+    }
+
+    #health-suggestion-section h2 {
+        font-size: 25px;
+     }
+     #health-suggestion-section button {
+        padding: 8px;
+        font-size: 16px;
+     }
+
+}
+
+@media only screen and (max-width:386px){
+        #health-suggestion-section button {
+           padding: 10px 5px;
+           font-size: 12px;
+           font-weight: 400;
+       }       
+ }
+
+
+/* product-item-section" */
+@media only screen and (max-width: 520px){
+#product-item-section button{
+             padding: 20px 10px;
+}
+}

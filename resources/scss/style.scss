@@ -1,0 +1,239 @@
+@import "variables";
+@import "utilities";
+
+body {
+    background-color: $body-color;
+    color: $text-color;
+    font-size: 15px;
+    font-family: $my-font;
+}
+
+header {
+    nav {
+background-color: $navbar-bg;
+    }
+
+}
+    #home-slider {
+    height: 600px;
+    background-image: url(../../img/home-slider.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    h1 { font-weight: 400;
+        span {
+            color: $primary-color;
+            font-weight: 700;
+        }
+    }
+    h6 {
+        color: $primary-color;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+.slider-details {
+    background: $body-color;
+    margin-top: -140px;
+    z-index: 999999999;
+    p{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .my-shadow {
+         box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);        
+        -webkit-box-shadow:0 .5rem 1rem rgba(0,0,0,.15);        
+        -moz-box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);        
+    }
+    a{
+        font-size: 21px;
+        color: $primary-color;
+        text-decoration: none;
+    }
+}
+
+#about-us {
+    h3 {
+        color: $primary-color
+    }
+    p{
+        font-weight: 300;
+        font-size: 20px;
+    }
+}
+
+#video-section {
+    .back-front-bg {
+        position: relative;
+        background-color: $primary-color;
+        width: 320px;
+        height: 200px;
+    }
+    .font-bg {
+        margin-left: 30px;
+        margin-top: -170px;
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+    }
+    .play-btn {
+        i{
+            font-size: 40px;
+            color: $primary-color;
+}
+    }
+    p{
+      background-color: $primary-color;
+      color: $text-white;
+    }
+}
+
+#get-started-section {
+    margin-top: 120px !important;
+    background-color: $primary-color;
+    color: $text-white;
+    padding: 80px;
+    p{
+        font-size: 30px;
+    }
+}
+
+/* start health-suggestion-section */
+#health-suggestion-section {
+    background-color: $primary-color;
+    min-height: 700px;
+    padding: 50px 0px;
+    h4 {
+        font-size: 30px;
+        font-weight: 600;
+        color: $text-white;
+    }
+    h2 {
+        font-size: 50px;
+        font-weight: 800;
+        color: $text-white;
+    }
+    p{
+        color: $text-white;
+    }
+    button {
+        padding: 25px 35px;
+        background-color: $primary-color;
+        outline: none;
+        border: none;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .border-style {
+        border-left: 1px solid rgba(158, 175, 158, 0.349);
+        border-right: 1px solid rgba(158, 175, 158, 0.349);
+    }
+    
+}
+/* end health-suggestion-section */
+
+/* start good-health-section-section */
+#good-health-section {
+    h2 {
+        font-size: 30px;
+        font-weight: 800;
+        span {
+            color: $primary-color;
+        }
+       
+    }
+}
+/* end good-health-section-section */
+
+
+/* start our-product-header-section */
+#our-product-header-section {
+    background-color: rgb(240, 232, 232);
+    padding-bottom: 30px;
+
+    h2{ margin-top: 30px;
+        font-size: 40px;
+        font-weight: 800;
+    }
+}
+/* end our-product-header-section */
+
+
+
+
+/* start product-item-section" */
+#product-item-section{
+      background-color: rgb(240, 232, 232);
+      margin-top: -62px;
+    
+    button {
+        padding: 20px 30px;
+        border: none;
+        outline: none;
+    }
+    .active {
+        background-color: $primary-color;
+    }
+    .content-bg-color {
+        background-color: $primary-color;
+    }
+}
+
+#product-item-details-section {
+    background-color: $primary-color;
+    margin-top: -60px;
+}
+
+/* end product-item-section */
+
+
+/* start follow-rule-section */
+#follow-rule-section {
+    h2 {
+        font-size: 40px;
+        font-weight: 800;
+       
+    }
+    span {
+        color: $primary-color;
+    }
+}
+/* end follow-rule-section */
+
+
+/* start started-section */
+#started-section {
+    background: $primary-color;
+    padding: 60px 0px;
+    h2{
+        font-size: 55px;
+        font-weight: 800;
+        color: $text-white;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 400;
+        color: $text-white;
+    }
+    a{
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 400;
+        color: $text-white;
+    }
+}
+/* end started-section */
+
+/* start footer-section */
+footer {
+    
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        color: $text-color;
+    }
+    i{
+        color: $primary-color;
+    }
+}
+/* end footer-section */
